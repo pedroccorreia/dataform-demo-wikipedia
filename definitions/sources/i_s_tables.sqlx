@@ -1,6 +1,6 @@
 config {
   type: "declaration",
-  database: "vinoaj-sandbox",
+  database: "pcorreia-demo",
   schema: "dataform_sandbox",
   name: "INFORMATION_SCHEMA.TABLES",
   description: "INFORMATION_SCHEMA.TABLES for dataform_playground"
