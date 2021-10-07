@@ -3,25 +3,6 @@
     {
       "name": "production",
       "configOverride": {},
-      "schedules": [
-        {
-          "name": "daily_morning_run",
-          "cron": "0 21 * * mon,tue,wed,thu,fri,sat,sun",
-          "notify": [
-            {
-              "channel": "notification_email",
-              "statuses": [
-                "SUCCESS",
-                "FAILURE"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "new_schedule",
-          "cron": "56 18 * * *"
-        }
-      ],
       "gitRef": "master"
     }
   ],

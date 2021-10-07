@@ -6,7 +6,7 @@ config {
     labels: {
       "env": "dev",
       "purpose": "demo",
-      "owner": "vinoaj"
+      "owner": "pcorreia"
     }
   },
   assertions: {
